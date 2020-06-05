@@ -108,18 +108,19 @@ footer .redes-sociales a:hover {
   text-decoration: none;
 }
 
-@media screen ad (max-width: 800px) {
+@media screen and (max-width: 800px) {
   .main {
     width: 100%;
     flex-direction: row;
   }
 
   aside .ad {
-    width: 50%;
+    width: 40%;
+
   }
 }
 
-@media screen ad (max-width: 600px) {
+@media screen and (max-width: 600px) {
   header {
     flex-direction: column;
     padding-bottom: 20px;
@@ -157,7 +158,7 @@ footer .redes-sociales a:hover {
   }
 }
 
-@media screen ad (max-width: 400px){
+@media screen and (max-width: 400px){
     aside{
         display: none;
     }
