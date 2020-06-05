@@ -111,12 +111,15 @@ footer .redes-sociales a:hover {
 @media screen and (max-width: 800px) {
   .main {
     width: 100%;
-    flex-direction: row;
+    
   }
+  aside {
+    width: 100%;
+    flex-direction: row;}
 
   aside .ad {
     width: 40%;
-
+   
   }
 }
 
